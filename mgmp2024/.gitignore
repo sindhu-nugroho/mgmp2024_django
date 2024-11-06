@@ -1,0 +1,7 @@
+images/
+media/
+myapp/__pycache__/
+myapp/migrations/__pycache__/
+!myapp/migrations/__init__.py
+db.sqlite3
+mgmp2024/__pycache__/

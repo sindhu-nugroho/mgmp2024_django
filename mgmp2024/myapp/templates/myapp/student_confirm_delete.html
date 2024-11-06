@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hapus Record MGMP</title>
+</head>
+<body>
+    <h1>Hapus Data</h1>
+    <p>Apakah Kamu yakin akan menghapus data {{ object.name }}?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Confirm</button>
+        <a href="{% url 'student-list' %}">Cancel</a>
+    </form>
+</body>
+</html>
